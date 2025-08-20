@@ -24,7 +24,7 @@ def hardcoded_credentials():
     # Vulnerable to leaking sensitive data
     username = "admin"
     password = "password123"  # Hardcoded password
-    print(f"Username: {username}, Password: {password}")
+    print(f"Username: {username}, Password: [REDACTED]")
 
 if __name__ == "__main__":
     # Example of high vulnerability: SQL Injection
